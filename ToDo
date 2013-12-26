@@ -1,0 +1,20 @@
+[Immideate]
+Fix 
+	Health[kill player]
+	Weapon[missing]
+	
+	
+MultiPlayer
+	Server Development//
+	Fix screen focus
+	
+ServerDevelopment
+	Refactor directory with seperate dir for game and server [push it]
+	
+	
+Change Applet to .jar runnable
+
+[2ndry]
+Game Play
+	Create new maps
+	Kill player when fell into pit
