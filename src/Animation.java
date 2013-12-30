@@ -192,7 +192,7 @@
 			int h= d_h;
 			int w= d_w;
 			
-			Color apa = new Color(1,255,1);//ALPHABLEND for bg..., but how do i blend it all?
+//			Color apa = new Color(1,255,1);//ALPHABLEND for bg..., but how do i blend it all?
 			
 			
 			g.drawImage(i, x-ca.x, y-ca.y, x+w-ca.x, y+h-ca.y, left,top,right,bottom, c);	
@@ -201,7 +201,7 @@
 			
 			g.drawString(str, x-ca.x, y-ca.y - 12);
 		}	
-		//Bake own draw class
+
 	}
 
 

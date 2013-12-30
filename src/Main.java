@@ -22,7 +22,7 @@
 		public static int screen_width, screen_height, native_width, native_height, bit_depth, physics_multi_sampling;
 		public static double factor;
 		
-		boolean multiplayer = true;
+		boolean multiplayer = false;
 		int level = 0;
 		
 		public static boolean running = false;
@@ -176,6 +176,7 @@
 			//g.drawImage (screen_buffer, 0, 0, this);//final display image
 			g.drawImage (screen_buffer, 0, 0, screen_width, screen_height, 0, 0, native_width, native_height, this);//final display image
 		}
+		
 		   protected void processInput(){// protected
 				
 				/// all the key Bindings

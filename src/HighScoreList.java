@@ -3,35 +3,23 @@
 	import java.awt.event.ActionListener;
 	import java.util.Scanner;
 
-	import javax.swing.AbstractButton;
 	import javax.swing.JButton;
 	import javax.swing.JFrame;
 	import javax.swing.JLabel;
 	import javax.swing.JTable;
 	import javax.swing.JTextField;
-	import javax.swing.table.*;
 
 
 	public class HighScoreList  extends JFrame implements ActionListener{
 		
 		
 
-		private Object addButton;
+		private static final long serialVersionUID = 1L;
 
-		private AbstractButton nameField;
-
-		
 	    
 	    static final int MAX_ROWS = 5;
 	    static final int MAX_COLUMNS = 3;
 		
-	    /**
-	     * 
-	     * 
-	     * 
-	     * 
-	     * 
-	     */
 		public HighScoreList(){
 			super("your HighScore");
 			setBounds(0,0,400,400);
@@ -41,8 +29,6 @@
 			setVisible( true );
 		
 
-	// objects inside the table 
-		  // NEW ->
 	    JTable scoreTable = new JTable(5, 3);
 	    scoreTable.setEnabled(false);
 	    scoreTable.setBounds(20, 20, 250, 80);
@@ -81,7 +67,9 @@
 			System.out.print("put in your name to see the highscore");
 			String nameInput=input.next();
 			
-			User name=new User(nameInput);
+//			User name=
+					new User(nameInput);
+			input.close();
 			}
 			
 		}
