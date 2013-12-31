@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="66" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="Tileset.tsx"/>
+ <tileset firstgid="109" name="GrassTile" tilewidth="70" tileheight="70">
+  <image source="png/ground.png" width="70" height="70"/>
+ </tileset>
+ <layer name="Border" width="66" height="22">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QsQ2AMBAEQTeA3CP9FwFiA9zDz0qny2evte532z6HyXEoDsWhOBSH4lAcikNxKA7FoTgUh+JQHIpDcajTYfIY/LuOn7wH0nW8F7AWAAA=
+  </data>
+ </layer>
+</map>

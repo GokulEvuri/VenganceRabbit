@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Bricks" tilewidth="320" tileheight="80">
+  <image source="../../../Desktop/heritage+jamison.jpg" width="1200" height="854"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain="0,,0,"/>
+ </tileset>
+ <imagelayer name="Background" width="100" height="100" visible="0">
+  <image source="Background.png"/>
+ </imagelayer>
+ <layer name="Background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2sFqwkAUQNFJrf//y6WCy2kzJg23cg64kZdJ8PpWehtj3BZeP5nNrZx/1rP85b1X7rtn7um+82yuoUeLHi16tOjRokeLHi16tOjRokeLHi16tOjRMuux7bz+46wH4cF+tMx6fB68ntf4PFv0aNGjRY8WPVr0aNGjRY8WPVq+e2xjfxdzx+auOodz6NGiR4seLXq06NGiR4seLXq06NGiR4seLXq06NGiR4seLXq06NGiR4seLXq06NGiR4seLXq06NGy0qP+X8x3mLMfLXq06NGiR4seLXq06NGiR4seMGc/WvSAOfvRokeLHi16tOgBc/ajRY8WPWDOfrTo0aJHix4t99H+P+s7zV19Fsfp0aJHix4terTo0aJHix4terTo0aJHix4terTo0aJHix4tevRsi+//t7nfvnO13xW/AAEkA0E=
+  </data>
+ </layer>
+ <layer name="Colission" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="object" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="100" height="100">
+  <object x="2" y="32" width="1676" height="3"/>
+  <object x="1681" y="31" width="1326" height="3"/>
+  <object x="3010" y="25" width="170" height="8"/>
+  <object x="3168" y="33" width="111" height="913"/>
+  <object x="3167" y="943" width="99" height="770"/>
+  <object x="3166" y="1708" width="129" height="679"/>
+  <object x="3166" y="2390" width="172" height="875"/>
+  <object x="3165" y="2369" width="100" height="182"/>
+  <object x="3166" y="3120" height="54"/>
+  <object x="3175" y="3195"/>
+  <object x="3159" y="3190"/>
+  <object x="3139" y="3184"/>
+  <object x="3058" y="3133" width="271" height="150"/>
+  <object x="2823" y="3117" width="663" height="166"/>
+  <object x="1793" y="3120" width="762" height="163"/>
+  <object x="2552" y="3119" width="577" height="164"/>
+  <object x="1799" y="3123" height="91"/>
+  <object x="1536" y="3119" width="309" height="158"/>
+  <object x="431" y="3123" width="1165" height="160"/>
+  <object x="437" y="3123" width="2"/>
+  <object x="430" y="2542" width="1393" height="81"/>
+  <object x="1823" y="2542" width="1057" height="79"/>
+  <object x="3161" y="1725"/>
+  <object x="3163" y="1645" height="26"/>
+  <object x="3158" y="1647" height="48"/>
+  <object x="321" y="1649" width="1253" height="81"/>
+  <object x="1576" y="1648" width="1338" height="83"/>
+  <object x="2918" y="1647" width="263" height="82"/>
+  <object x="437" y="2823" width="1"/>
+  <object gid="1" x="163" y="3202"/>
+  <object gid="1" x="4" y="3201"/>
+  <object x="487" y="3120" height="43"/>
+  <object x="0" y="3117" width="500" height="161"/>
+  <object x="4" y="3115" width="64" height="96"/>
+  <object x="6" y="2625" height="526"/>
+  <object x="5" y="2547" width="440" height="74"/>
+  <object x="0" y="784" width="1389" height="78"/>
+  <object x="160" y="396" width="639" height="151"/>
+  <object x="1391" y="782" width="1345" height="82"/>
+  <object x="2738" y="780" width="176" height="82"/>
+  <object x="9" y="34" height="762"/>
+  <object x="4" y="861" height="823"/>
+  <object x="10" y="1686" height="673"/>
+  <object x="11" y="2356" height="261"/>
+ </objectgroup>
+</map>
